@@ -76,4 +76,23 @@ export const navItems = [
       iconLists: ["/js.svg", "/html.svg", "/css.svg"],
       link: "https://github.com/nalinverma03/hr-code",
     },
+  ]
+  
+  export const workExperience = [
+    {
+      id: 1,
+      title: "Laboratory Demonstrator",
+      desc: "Facilitated student learning during laboratories for the 'Introduction to Computing' module",
+      className: "md:col-span-2",
+      thumbnail: "/tcd.png",
+      link: "https://www.tcd.ie",
+    },
+    {
+      id: 2,
+      title: "Platform Engineering Intern",
+      desc: "Automated tasks (like provisioning and access control) and built them into the company's platform",
+      className: "md:col-span-2",
+      thumbnail: "/m-logo.svg",
+      link: "https://www.mlp.com",
+    },
   ];
