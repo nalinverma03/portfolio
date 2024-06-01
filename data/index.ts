@@ -33,8 +33,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "./grid.svg",
+      spareImg: "./b4.svg",
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "./b1.svg",
       spareImg: "",
     },
     {
@@ -63,16 +63,16 @@ export const navItems = [
       id: 1,
       title: "Farming RPG",
       des: "Immerse yourself in a Farming Role Playing Game similar to Harvest Moon",
-      img: "/farm-rpg.jpg",
-      iconLists: ["/python.svg"],
+      img: "./farm-rpg.jpg",
+      iconLists: ["./python.svg"],
       link: "https://github.com/nalinverma03/farming-rpg",
     },
     {
       id: 2,
       title: "Human Readable Codes",
       des: "Escape the limitations of QR codes by using HR (Human Readable) codes",
-      img: "/hr-code.jpg",
-      iconLists: ["/js.svg", "/html.svg", "/css.svg"],
+      img: "./hr-code.jpg",
+      iconLists: ["./js.svg", "./html.svg", "./css.svg"],
       link: "https://github.com/nalinverma03/hr-code",
     },
   ]
@@ -83,7 +83,7 @@ export const navItems = [
       title: "Laboratory Demonstrator",
       desc: "Facilitated student learning during laboratories for the 'Introduction to Computing' module",
       className: "md:col-span-2",
-      thumbnail: "/tcd.png",
+      thumbnail: "./tcd.png",
       link: "https://www.tcd.ie",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
       title: "Platform Engineering Intern",
       desc: "Automated tasks (like provisioning and access control) and built them into the company's platform",
       className: "md:col-span-2",
-      thumbnail: "/m-logo.svg",
+      thumbnail: "./m-logo.svg",
       link: "https://www.mlp.com",
     },
   ];
@@ -99,12 +99,12 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "./git.svg",
       link: "https://github.com/nalinverma03"
     },
     {
       id: 2,
-      img: "/link.svg",
+      img: "./link.svg",
       link: "https://www.linkedin.com/in/nalinverma03/"
     },
   ];
