@@ -2,7 +2,6 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Experience", link: "#experience"},
-    { name: "Certifications", link: "#certifications" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -94,5 +93,18 @@ export const navItems = [
       className: "md:col-span-2",
       thumbnail: "/m-logo.svg",
       link: "https://www.mlp.com",
+    },
+  ];
+
+  export const socialMedia = [
+    {
+      id: 1,
+      img: "/git.svg",
+      link: "https://github.com/nalinverma03"
+    },
+    {
+      id: 2,
+      img: "/link.svg",
+      link: "https://www.linkedin.com/in/nalinverma03/"
     },
   ];
