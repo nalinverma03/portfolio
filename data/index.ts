@@ -1,6 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
+    { name: "Experience", link: "#experience"},
     { name: "Certifications", link: "#certifications" },
     { name: "Contact", link: "#contact" },
   ];
@@ -48,12 +49,31 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Want to start a project together?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
       spareImg: "",
+    },
+  ];
+
+  export const projects = [
+    {
+      id: 1,
+      title: "Farming RPG",
+      des: "Immerse yourself in a Farming Role Playing Game similar to Harvest Moon",
+      img: "/farm-rpg.jpg",
+      iconLists: ["/python.svg"],
+      link: "https://github.com/nalinverma03/farming-rpg",
+    },
+    {
+      id: 2,
+      title: "Human Readable Codes",
+      des: "Escape the limitations of QR codes by using HR (Human Readable) codes",
+      img: "/hr-code.jpg",
+      iconLists: ["/js.svg", "/html.svg", "/css.svg"],
+      link: "https://github.com/nalinverma03/hr-code",
     },
   ];
