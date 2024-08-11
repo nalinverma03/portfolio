@@ -81,15 +81,15 @@ export const navItems = [
     {
       id: 1,
       title: "Laboratory Demonstrator",
-      desc: "Facilitated student learning during laboratories for the 'Introduction to Computing' module",
+      desc: "Collaborated closely with the professor and fellow demonstrators in the lab to assist students in grasping course-related concepts",
       className: "md:col-span-2",
       thumbnail: "./tcd.png",
       link: "https://www.tcd.ie",
     },
     {
       id: 2,
-      title: "Platform Engineering Intern",
-      desc: "Automated tasks (like provisioning and access control) and built them into the company's platform",
+      title: "Compute Engineering Intern",
+      desc: "Worked on the linux platform engineering team to revamp the user group management process using Ansible and AWX",
       className: "md:col-span-2",
       thumbnail: "./m-logo.svg",
       link: "https://www.mlp.com",
