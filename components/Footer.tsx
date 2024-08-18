@@ -19,7 +19,7 @@ const Footer = () => {
           Ready to <span className="text-purple">work together</span>?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s achieve our goals
+          Reach out to me today and let&apos;s achieve our goals together
         </p>
         <a href="mailto:nalinverma.work@gmail.com">
           <MagicButton
